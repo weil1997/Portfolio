@@ -1,0 +1,239 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+}
+nav{
+    border: 1px solid black;
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    justify-content: space-between;
+    margin: 15px;
+    padding: 10px;
+}
+
+.socmed{
+    display: flex;
+    justify-content: space-between
+    
+}
+
+.bildweil{
+
+   
+    width: 250px;
+    border: 1px solid black;
+   
+
+}
+
+
+
+.hero-content{
+
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ max-width: 1020px;
+ height: 80vh;
+ padding: 20px;
+margin: auto;
+
+ 
+ 
+
+}
+
+.header{
+    padding-left: 20px;
+    
+
+}
+
+
+.worksection{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.chipswrapper{
+    display: flex;
+    gap: 12px;
+}
+
+.chips{
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: 15px;
+}
+
+.btn{
+    border-radius: 15px;
+    width: 100%;
+}
+
+.projects-container{
+    padding: 0px 20px;
+}
+
+.project{
+    margin: 40px auto;
+    max-width: 1024px;
+    height: 450px;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+}
+
+.img-container{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    transition: transform 150ms;
+}
+
+.img-overlay{
+    position: absolute;
+    background: #26262699;
+    inset: 0;
+}
+
+.project:hover .img-container{
+    transform: scale(1.05);
+}
+
+.project img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+}
+.project-text-container{
+    position: absolute;
+    inset: 0;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 30px;
+}
+
+.project-text-title{
+    font-size: 36px;
+    line-height: 40px;
+    color: rgb(224, 242, 254);
+    font-weight: 900;
+}
+
+.project-text-subtitle{
+    color: rgb(240, 249, 255); 
+    font-size: 14px;
+    margin-bottom: 12px;
+
+}
+
+.project-text-title,
+.project-text-subtitle {
+    font-family: 'Piazzolla', serif; /* 'Piazzolla' fonten är importerad från google fonts i vårt html dokument */
+}
+
+button{
+    border: solid 1px black;
+    border-radius: 6px;
+    transition: border-radius 150ms;
+    width: 128px;
+    padding: 8px 0px;
+    background-color: black;
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+
+}
+button:hover{
+    border-radius: 10px;
+}
+
+.projects-container{
+    padding: 0px 20px;
+}
+
+.project{
+    margin: 40px auto;
+    max-width: 1024px;
+    height: 450px;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+}
+
+.img-container{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    transition: transform 150ms;
+}
+
+.img-overlay{
+    position: absolute;
+    background: #26262699;
+    inset: 0;
+}
+
+.project:hover .img-container{
+    transform: scale(1.05);
+}
+
+.project img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+}
+.project-text-container{
+    position: absolute;
+    inset: 0;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 30px;
+}
+
+.project-text-title{
+    font-size: 36px;
+    line-height: 40px;
+    color: rgb(224, 242, 254);
+    font-weight: 900;
+}
+
+.project-text-subtitle{
+    color: rgb(240, 249, 255); 
+    font-size: 14px;
+    margin-bottom: 12px;
+
+}
+
+.project-text-title,
+.project-text-subtitle {
+    font-family: 'Piazzolla', serif; /* 'Piazzolla' fonten är importerad från google fonts i vårt html dokument */
+}
+
+button{
+    border: solid 1px black;
+    border-radius: 6px;
+    transition: border-radius 150ms;
+    width: 128px;
+    padding: 8px 0px;
+    background-color: black;
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+
+}
+button:hover{
+    border-radius: 10px;
+}
